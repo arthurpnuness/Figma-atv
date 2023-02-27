@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@font-face {
+    font-family: blooming;
+    src: url("../fonts/blooming.otf");
+}
+@font-face {
+    font-family: neometric-bold;
+    src: url("../fonts/neometric-bold.otf");
+}
+@font-face {
+    font-family: neometric-light;
+    src: url("../fonts/neometric-light.otf");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    color: #EC8F58;
+}
+a.social:hover {
+    transform: scale(1.15);
+}
+.destaque:hover {
+    border-bottom: 2px solid #EC8F58;
+}
+button:hover {
+    filter: brightness(0.9);
+}
+body {
+    min-height: 100vh;
+    padding: 0 7%;
+    background-image: linear-gradient(to right, #6B3C3B, #181E41);
+    color: #FFFFFF;
+    font-weight: normal;
+}
